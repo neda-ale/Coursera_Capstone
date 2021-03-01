@@ -40,3 +40,9 @@ My final dataset has the main components postcodes, districs, suburbs, Latitude,
 ![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure1.jpg "Figure 1: Canberra dataset.")
 
 **Figure 1:** Canberra dataset.
+
+The next step was to visualize the location of the various postal codes within Canberra to obtain a general understanding of the location (Figure 2). As we can see
+
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/Figure2.jpg "Figure 2: Location of each postal code within Canberra, Australia.")
+
+**Figure 2:** Location of each postal code within Canberra, Australia.
