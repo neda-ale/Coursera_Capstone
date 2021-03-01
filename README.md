@@ -29,4 +29,6 @@ For this project, the following factors have to be extracted from various data s
 - Districs and suburbs of ACT and their coordinates
 The Canberra Census data was extracted from: https://en.wikipedia.org
 
-there were not a lot of gathered information about all above data so I just scraped them from multiple sources and were combined them into one final table.
+There were not a lot of gathered information about all above data so I just scraped them from multiple sources and were combined them into one final table.
+
+There were some missing data which I used the median for it. For example, there were suburbs that their habitants were very low compared with the other suburbs and there was no clear information about the percentage of population and individual weekly income. I calculated the percentage of population myself considering their number of habitants. Also, for the calculating the missing income I noticed that all suburbs expect one (south Canberra) have very similar income. Therefore, I used the median of more seen income to calculate the weekly individual income.
