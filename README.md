@@ -61,3 +61,10 @@ The extracted venue categories were encoded using one-hot encoding and the total
 
 **Figure 4:** Result of calculating the number of restaurants in every suburb.
 
+With the resulting data of the number of the restaurants in each suburbs and the Median weekly personal income(A$) and Percentage of the ACT population we train a k-Means clustering algorithm with 5 clusters (Figure 5).
+
+## Results
+
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure%205.png "Figure 5: Result of the clustering algorithm. Cluster 0 = Red Cluster 1 = Purple Cluster 2 = Blue Cluster 3 = Turquoise Cluster 4 = Orange")
+
+**Figure 5:** Result of the clustering algorithm. Cluster 0 = Red Cluster 1 = Purple Cluster 2 = Blue Cluster 3 = Turquoise Cluster 4 = Orange.
