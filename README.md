@@ -51,20 +51,28 @@ Now that the region has been clearly visualized, the Foursquare API was used to 
 
 ![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure3.png "Figure 3: Merged table of Suburbs and venues in Canberra.")
 
+
 **Figure 3:** Merged table of Suburbs and venues in Canberra.
 
 By counting the venues in each suburbs, we can see how some suburbs (the one in city centre such as Civic or the ones in entertainment regions such as Kingston) reached the 100 limit of venues. On the other hand; some regions are below 10 venues.
 
-The extracted venue categories were encoded using one-hot encoding and the total restaurants in each region were calculated (Figure 4).
+In summary there are 201 unique categories were returned by Foursquare, then I created a table which shows list of top 10 venue category for each region in below table.
 
-![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure4.png "Figure 4: Result of calculating the number of restaurants in every suburb.")
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure6.png "Figure 4: list of top 10 venue category for each region in Canberra.")
 
-**Figure 4:** Result of calculating the number of restaurants in every suburb.
 
-With the resulting data of the number of the restaurants in each suburbs and the Median weekly personal income(A$) and Percentage of the ACT population we train a k-Means clustering algorithm with 5 clusters (Figure 5).
+**Figure 4:** list of top 10 venue category for each region in Canberra.
+
+The extracted venue categories were encoded using one-hot encoding and the total restaurants in each region were calculated (Figure 5).
+
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure4.png "Figure 5: Result of calculating the number of restaurants in every suburb.")
+
+**Figure 5:** Result of calculating the number of restaurants in every suburb.
+
+With the resulting data of the number of the restaurants in each suburbs and the Median weekly personal income(A$) and Percentage of the ACT population we train a k-Means clustering algorithm with 5 clusters (Figure 6).
 
 ## Results
 
-![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure%205.png "Figure 5: Result of the clustering algorithm. Cluster 0 = Red Cluster 1 = Purple Cluster 2 = Blue Cluster 3 = Turquoise Cluster 4 = Orange")
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure%205.png "Figure 6: Result of the clustering algorithm. Cluster 0 = Red Cluster 1 = Purple Cluster 2 = Blue Cluster 3 = Turquoise Cluster 4 = Orange")
 
-**Figure 5:** Result of the clustering algorithm. Cluster 0 = Red / Cluster 1 = Purple / Cluster 2 = Blue / Cluster 3 = Turquoise / Cluster 4 = Orange.
+**Figure 6:** Result of the clustering algorithm. Cluster 0 = Red / Cluster 1 = Purple / Cluster 2 = Blue / Cluster 3 = Turquoise / Cluster 4 = Orange.
