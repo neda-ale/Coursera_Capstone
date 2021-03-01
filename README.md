@@ -53,4 +53,11 @@ Now that the region has been clearly visualized, the Foursquare API was used to 
 
 **Figure 3:** Merged table of Suburbs and venues in Canberra.
 
+By counting the venues in each suburbs, we can see how some suburbs (the one in city centre such as Civic or the ones in entertainment regions such as Kingston) reached the 100 limit of venues. On the other hand; some regions are below 10 venues.
+
 The extracted venue categories were encoded using one-hot encoding and the total restaurants in each region were calculated (Figure 4).
+
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure4.png "Figure 4: Result of calculating the number of restaurants in every suburb.")
+
+**Figure 4:** Result of calculating the number of restaurants in every suburb.
+
