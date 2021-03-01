@@ -63,11 +63,12 @@ In summary there are 201 unique categories were returned by Foursquare, then I c
 
 **Figure 4:** list of top 10 venue category for each region in Canberra.
 
-The extracted venue categories were encoded using one-hot encoding and the total restaurants in each region were calculated (Figure 5).
+The extracted venue categories were encoded using one-hot encoding and the total restaurants in each region were calculated (Figure 5). We can use later this table to figure out what theme or budget restaurant is appropriate for our business.
 
 ![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure4.png "Figure 5: Result of calculating the number of restaurants in every suburb.")
 
 **Figure 5:** Result of calculating the number of restaurants in every suburb.
+
 
 With the resulting data of the number of the restaurants in each suburbs and the Median weekly personal income(A$) and Percentage of the ACT population we train a k-Means clustering algorithm with 5 clusters (Figure 6).
 
