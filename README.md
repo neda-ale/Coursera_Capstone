@@ -70,6 +70,7 @@ The extracted venue categories were encoded using one-hot encoding and the total
 **Figure 5:** Result of calculating the number of restaurants in every suburb.
 
 
+I used unsupervised learning K-means algorithm to cluster the suburbs. K-Means algorithm is one of the most common cluster method of unsupervised learning.
 With the resulting data of the number of the restaurants in each suburbs and the Median weekly personal income(A$) and Percentage of the ACT population we train a k-Means clustering algorithm with 5 clusters (Figure 6).
 
 ## Results
