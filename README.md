@@ -46,3 +46,11 @@ The next step was to visualize the location of the various postal codes within C
 ![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/Figure2.jpg "Figure 2: Location of each postal code within Canberra, Australia.")
 
 **Figure 2:** Location of each postal code within Canberra, Australia.
+
+Now that the region has been clearly visualized, the Foursquare API was used to explore each suburbs and return the top 100 venues within 750 meters of the longitude and latitude for each postal code. Here is a head of the list Venues name, category, latitude and longitude informations from Forsquare API (Figure 3).
+
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure3.png "Figure 3: Merged table of Suburbs and venues in Canberra.")
+
+**Figure 3:** Merged table of Suburbs and venues in Canberra.
+
+The extracted venue categories were encoded using one-hot encoding and the total restaurants in each region were calculated (Figure 4).
