@@ -35,4 +35,5 @@ There were some missing data which I used the median for it. For example, there 
 
 ## Methodology
 
-My final dataset has the main components postcodes, districs, suburbs, Latitude, Longitude, the  informations of the city.
+My final dataset has the main components postcodes, districs, suburbs, Latitude, Longitude, Median weekly personal income(A$) and	Percentage of the ACT population.
+
