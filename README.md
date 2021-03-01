@@ -21,4 +21,6 @@ For this project, the following factors have to be extracted from various data s
 -	Percentage of the Australian Capital Territory population for each suburb (Canberra Census)
 - Median weekly personal income (Canberra Census)
 -	Number of Restaurants in Each Neighborhood (Foursquare API)
-The Canberra Census data was extracted from: https://en.wikipedia.org/wiki/Suburbs_of_Canberra 
+- Districs and suburbs of ACT and their coordinates
+The Canberra Census data was extracted from: https://en.wikipedia.org
+there were not a lot of gathered information about all above data so I just scraped them from multiple sources and were combined them into one final table.
