@@ -37,3 +37,4 @@ There were some missing data which I used the median for it. For example, there 
 
 My final dataset has the main components postcodes, districs, suburbs, Latitude, Longitude, Median weekly personal income(A$) and	Percentage of the ACT population.
 
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure1.jpg "Figure 1: Canberra dataset.")
