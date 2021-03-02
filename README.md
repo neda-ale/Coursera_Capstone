@@ -103,3 +103,10 @@ This map has the below informations for each Suburb:
 ![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure%20cluster.png "Figure 9: Result of the clustering algorithm.")
 
 **Figure 9:** Result of the clustering algorithm. Cluster 0 = Red , Cluster 1 = Purple , Cluster 2 = Blue 
+
+Also I normalised our data and created a bar chart to visualise better. It shows Total Restaurants, Median weekly personal income(A$) and Percentage of the ACT population in each suburb.
+
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figurebar.png "Figure 10: Bar chart.")
+
+**Figure 10:** Bar Chart 
+
