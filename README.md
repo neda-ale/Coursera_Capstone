@@ -75,6 +75,6 @@ With the resulting data of the number of the restaurants in each suburbs and the
 
 ## Results
 
-![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure%205.png "figure cluster": Result of the clustering algorithm. Cluster 0 = Red Cluster 1 = Purple Cluster 2 = Blue ")
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure%20cluster.png "figure 6": Result of the clustering algorithm. Cluster 0 = Red Cluster 1 = Purple Cluster 2 = Blue ")
 
 **Figure 6:** Result of the clustering algorithm. Cluster 0 = Red , Cluster 1 = Purple , Cluster 2 = Blue 
