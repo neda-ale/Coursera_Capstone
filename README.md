@@ -71,7 +71,16 @@ The extracted venue categories were encoded using one-hot encoding and the total
 
 
 I used unsupervised learning K-means algorithm to cluster the suburbs. K-Means algorithm is one of the most common cluster method of unsupervised learning.
-With the resulting data of the number of the restaurants in each suburbs and the Median weekly personal income(A$) and Percentage of the ACT population we train a k-Means clustering algorithm with 5 clusters (Figure 6).
+With the resulting data of the number of the restaurants in each suburbs and the Median weekly personal income(A$) and Percentage of the ACT population we train a k-Means clustering algorithm with 3 clusters (Figure 6).
+
+I used two methods to find out about the best number of clusters. The first on was elbow method. As you can see in figure 7, I could not get a good result with this method.
+
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure7.png "Figure 7: The Elbow Method showing the optimal k .")
+
+**Figure 7:** The Elbow Method showing the optimal k.
+
+Therefore I tried the silhouette value. Its ranges from -1 to +1. Silhuette values close to 1 indicates a successful clustering operation. I chose the closest value to 1 and it indicates that number of cluster to be 3 is the optimal one.
+
 
 ## Results
 
