@@ -108,5 +108,10 @@ Also I normalised our data and created a bar chart to visualise better. It shows
 
 ![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figurebar.png "Figure 10: Bar chart.")
 
-**Figure 10:** Bar Chart 
+**Figure 10:** Bar Chart of Total Restaurants, Median weekly personal income(A$) and Percentage of the ACT population in each suburb.
 
+Also you can see in figure 11 the bar chart of Total Restaurants in each cluster. 
+
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure11.png "Figure 11: the bar chart of Total Restaurants in each cluster.")
+
+**Figure 11:** The bar chart of Total Restaurants in each cluster 
