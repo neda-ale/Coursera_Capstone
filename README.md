@@ -84,6 +84,6 @@ Therefore I tried the silhouette value. Its ranges from -1 to +1. Silhuette valu
 
 ## Results
 
-![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure%20cluster.png "figure 6": Result of the clustering algorithm. Cluster 0 = Red Cluster 1 = Purple Cluster 2 = Blue ")
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure%20cluster.png "Figure 9: Result of the clustering algorithm.")
 
-**Figure 6:** Result of the clustering algorithm. Cluster 0 = Red , Cluster 1 = Purple , Cluster 2 = Blue 
+**Figure 9:** Result of the clustering algorithm. Cluster 0 = Red , Cluster 1 = Purple , Cluster 2 = Blue 
