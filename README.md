@@ -84,7 +84,7 @@ Therefore I tried the silhouette value. Its ranges from -1 to +1. Silhuette valu
 
 ## Results
 
-I merged related cluster information in our final table.
+I merged related cluster information in the final table.
 
 ![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure8.png "Figure 8: The final table with cluster label .")
 
@@ -94,10 +94,10 @@ Below you can see the clustered map of Canberra.
 
 This map has the below informations for each Suburb:
 
--Suburb name
--Cluster name
--Number of Restaurants
--Median weekley income
+- Suburb name
+- Cluster name
+- Number of Restaurants
+- Median weekley income
 
 
 ![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure%20cluster.png "Figure 9: Result of the clustering algorithm.")
