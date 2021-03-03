@@ -75,7 +75,7 @@ With the resulting data of the number of the restaurants in each suburbs and the
 
 I used two methods to find out the best number of clusters. First I normalised my data. Then I used the first methode whitch was elbow method. As you can see in figure 7, the best number of cluster is 6.
 
-![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure7.png "Figure 7: The Elbow Method showing the optimal k .")
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figureelbow.png: The Elbow Method showing the optimal k .")
 
 **Figure 7:** The Elbow Method showing the optimal k.
 
