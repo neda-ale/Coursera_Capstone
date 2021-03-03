@@ -71,13 +71,13 @@ The extracted venue categories were encoded using one-hot encoding and the total
 
 
 I used unsupervised learning K-means algorithm to cluster the suburbs. K-Means algorithm is one of the most common cluster method of unsupervised learning.
-With the resulting data of the number of the restaurants in each suburbs and the Median weekly personal income(A$) and Percentage of the ACT population we train a k-Means clustering algorithm with 6 clusters (Figure 6).
+With the resulting data of the number of the restaurants in each suburb and the Median weekly personal income(A$) and Percentage of the ACT population, I trained a k-Means clustering algorithm with 6 clusters.
 
-I used two methods to find out the best number of clusters. First I normalised my data. Then I used the first methode whitch was elbow method. As you can see in figure 7, the best number of cluster is 6.
+I used two methods to find out the best number of clusters. First I normalized my data. Then I used the first method which was elbow method. As you can see in figure 6, the best number of cluster is 6.
 
-![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figureelbow.png: The Elbow Method showing the optimal k .")
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figureelbow.png "Figure 6: The Elbow Method showing the optimal k .")
 
-**Figure 7:** The Elbow Method showing the optimal k.
+**Figure 6:** The Elbow Method showing the optimal k.
 
 Then I used the silhouette value to be sure that clustering is a good method for analyzing this project. silhouette value ranges from -1 to +1. Silhouette values close to 1 indicates a successful clustering operation and minus value means that clustering is not a good option for the analyzing. my values were all positive that indicate kmeans works for this project.
 
@@ -86,9 +86,9 @@ Then I used the silhouette value to be sure that clustering is a good method for
 
 I merged related cluster information in the final table.
 
-![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure8.png "Figure 8: The final table with cluster label .")
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure8.png "Figure 7: The final table with cluster label .")
 
-**Figure 8:** The final table with cluster label.
+**Figure 7:** The final table with cluster label.
 
 Below you can see the clustered map of Canberra.
 
@@ -100,26 +100,26 @@ This map has the below information for each Suburb:
 - Median weekley income
 
 
-![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure%20cluster.png "Figure 9: Result of the clustering algorithm.")
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure%20cluster.png "Figure 8: Result of the clustering algorithm.")
 
-**Figure 9:** Result of the clustering algorithm.  
+**Figure 8:** Result of the clustering algorithm.  
 
 Also I normalized our data and created a bar chart to visualize better. It shows Total Restaurants, Median weekly personal income(A$) and Percentage of the ACT population in each suburb.
 
-![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figurebar.png "Figure 10: Bar chart.")
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figurebar.png "Figure 9: Bar chart.")
 
-**Figure 10:** Bar Chart of Total Restaurants, Median weekly personal income(A$) and Percentage of the ACT population in each suburb.
+**Figure 9:** Bar Chart of Total Restaurants, Median weekly personal income(A$) and Percentage of the ACT population in each suburb.
 
 Also you can see three pie charts witch shows Total Restaurants in each cluster and Median weekly personal income(A$) in each cluster and Percentage of the ACT population in each cluster.  
 
-![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figurepie2.png "Figure 11: the bar chart of Total Restaurants in each cluster.")
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figurepie2.png "Figure 10: the bar chart of Total Restaurants in each cluster.")
 
-![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figurepie3.png "Figure 11: the bar chart of Median weekly personal income(A$) in each cluster in each cluster.")
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figurepie3.png "Figure 10: the bar chart of Median weekly personal income(A$) in each cluster in each cluster.")
 
-![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figurepie1.png "Figure 11: the bar chart of Percentage of the ACT population in each cluster.")
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figurepie1.png "Figure 10: the bar chart of Percentage of the ACT population in each cluster.")
 
 
-**Figure 11:** The pie chart of important criterias in each cluster 
+**Figure 10:** The pie chart of important criteria in each cluster 
 
 ## Discussion
 
@@ -129,7 +129,7 @@ We can use different way of classification. I used the Kmeans algorithm for this
 
 When I tested the Elbow method, I set the optimum k value to 6. 
 
-I ended the study by visualizing the data and clustering information on the Canberra map. Also I visualize pie charts that show the important criterias to consider for opening a restaurant in each cluster. In future studies, the theme of restaurant or other details can be carried out for more study.
+I ended the study by visualizing the data and clustering information on the Canberra map. Also I visualize pie charts that show the important criteria to consider for opening a restaurant in each cluster. In future studies, the theme of restaurant or other details can be carried out for more study.
 
 
 ## Conclusion
