@@ -92,7 +92,7 @@ I merged related cluster information in the final table.
 
 Below you can see the clustered map of Canberra.
 
-This map has the below informations for each Suburb:
+This map has the below information for each Suburb:
 
 - Suburb name
 - Cluster name
@@ -104,7 +104,7 @@ This map has the below informations for each Suburb:
 
 **Figure 9:** Result of the clustering algorithm.  
 
-Also I normalised our data and created a bar chart to visualise better. It shows Total Restaurants, Median weekly personal income(A$) and Percentage of the ACT population in each suburb.
+Also I normalized our data and created a bar chart to visualize better. It shows Total Restaurants, Median weekly personal income(A$) and Percentage of the ACT population in each suburb.
 
 ![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figurebar.png "Figure 10: Bar chart.")
 
@@ -134,4 +134,4 @@ I ended the study by visualizing the data and clustering information on the Canb
 
 ## Conclusion
 
-Opening a restaurant is a complex task that can lead to a large monetary loss if not done properly. Thus, extensive research about the area would greatly increase the likelihood of the restaurant succeeding. From the project above, I demonstrated the workflow necessary for a client to determine what area the restaurant should open. 
+Opening a restaurant is fun and at the same time complex and challenging. If enough researches wouldn't done properly, it can lead to a large monetary loss. Therefore, substantial amount of research about the area would greatly increase the chance of the restaurant to be succeed. In this project, I try to demonstrate the necessary information for an investor to determine what area the restaurant should open. 
