@@ -56,7 +56,7 @@ Now that the region has been clearly visualized, the Foursquare API was used to 
 
 By counting the venues in each suburbs, we can see how some suburbs (the one in city centre such as Civic or the ones in entertainment regions such as Kingston) reached the 100 limit of venues. On the other hand; some regions are below 10 venues.
 
-In summary there are 201 unique categories were returned by Foursquare, then I created a table which shows list of top 10 venue category for each region in below table. We can use later this table to figure out what theme or budget restaurant is appropriate for our business.
+In summary there are 201 unique categories were returned by Foursquare, then I created a table which shows the list of top 10 venue category for each region. We can use later this table to figure out what theme or budget restaurant is appropriate for our business.
 
 ![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure6.png "Figure 4: list of top 10 venue category for each region in Canberra.")
 
