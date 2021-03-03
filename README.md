@@ -113,11 +113,25 @@ Also I normalised our data and created a bar chart to visualise better. It shows
 Also you can see three pie charts witch shows Total Restaurants in each cluster and Median weekly personal income(A$) in each cluster and Percentage of the ACT population in each cluster.  
 
 ![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figurepie2.png "Figure 11: the bar chart of Total Restaurants in each cluster.")
+
 ![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figurepie3.png "Figure 11: the bar chart of Median weekly personal income(A$) in each cluster in each cluster.")
+
 ![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figurepie1.png "Figure 11: the bar chart of Percentage of the ACT population in each cluster.")
 
 
-
-
-
 **Figure 11:** The pie chart of important criterias in each cluster 
+
+## Discussion
+
+Canberra is the capital of Australia with population of 426,704. It has 7 districts. It is a growing city and there is always a need for opening a restaurant. 
+
+We can use different way of classification. I used the Kmeans algorithm for this project.
+
+When I tested the Elbow method, I set the optimum k value to 6. 
+
+I ended the study by visualizing the data and clustering information on the Canberra map. Also I visualize pie charts that show the important criterias to consider for opening a restaurant in each cluster. In future studies, the theme of restaurant or other details can be carried out for more study.
+
+
+## Conclusion
+
+Opening a restaurant is a complex task that can lead to a large monetary loss if not done properly. Thus, extensive research about the area would greatly increase the likelihood of the restaurant succeeding. From the project above, I demonstrated the workflow necessary for a client to determine what area the restaurant should open. 
