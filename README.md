@@ -26,7 +26,7 @@ For this project, the following factors have to be extracted from various data s
 -	Percentage of the Australian Capital Territory population for each suburb (Canberra Census)
 - Median weekly personal income (Canberra Census)
 -	Number of Restaurants in Each Neighborhood (Foursquare API)
-- Districs and suburbs of ACT and their coordinates
+- Districts and suburbs of ACT and their coordinates
 The Canberra Census data was extracted from: https://en.wikipedia.org
 
 There were not a lot of gathered information about all above data so I just scraped them from multiple sources and were combined them into one final table.
@@ -35,7 +35,7 @@ There were some missing data which I used the median for it. For example, there 
 
 ## Methodology
 
-My final dataset has the main components postcodes, districs, suburbs, Latitude, Longitude, Median weekly personal income(A$) and	Percentage of the ACT population.
+My final dataset has the main components postcodes, districts, suburbs, Latitude, Longitude, Median weekly personal income(A$) and	Percentage of the ACT population.
 
 ![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure1.jpg "Figure 1: Canberra dataset.")
 
