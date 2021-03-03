@@ -71,15 +71,15 @@ The extracted venue categories were encoded using one-hot encoding and the total
 
 
 I used unsupervised learning K-means algorithm to cluster the suburbs. K-Means algorithm is one of the most common cluster method of unsupervised learning.
-With the resulting data of the number of the restaurants in each suburbs and the Median weekly personal income(A$) and Percentage of the ACT population we train a k-Means clustering algorithm with 3 clusters (Figure 6).
+With the resulting data of the number of the restaurants in each suburbs and the Median weekly personal income(A$) and Percentage of the ACT population we train a k-Means clustering algorithm with 6 clusters (Figure 6).
 
-I used two methods to find out about the best number of clusters. The first on was elbow method. As you can see in figure 7, I could not get a good result with this method.
+I used two methods to find out the best number of clusters. First I normalised my data. Then I used the first methode whitch was elbow method. As you can see in figure 7, the best number of cluster is 6.
 
 ![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure7.png "Figure 7: The Elbow Method showing the optimal k .")
 
 **Figure 7:** The Elbow Method showing the optimal k.
 
-Therefore I tried the silhouette value. Its ranges from -1 to +1. Silhuette values close to 1 indicates a successful clustering operation. I chose the closest value to 1 and it indicates that number of cluster to be 3 is the optimal one.
+Then I used the silhouette value to be sure that clustering is a good method for analyzing this project. silhouette value ranges from -1 to +1. Silhouette values close to 1 indicates a successful clustering operation and minus value means that clustering is not a good option for the analyzing. my values were all positive that indicate kmeans works for this project.
 
 
 ## Results
@@ -110,8 +110,14 @@ Also I normalised our data and created a bar chart to visualise better. It shows
 
 **Figure 10:** Bar Chart of Total Restaurants, Median weekly personal income(A$) and Percentage of the ACT population in each suburb.
 
-Also you can see in figure 11 the bar chart of Total Restaurants in each cluster. 
+Also you can see three pie charts witch shows Total Restaurants in each cluster and Median weekly personal income(A$) in each cluster and Percentage of the ACT population in each cluster.  
 
-![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figure11.png "Figure 11: the bar chart of Total Restaurants in each cluster.")
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figurepie2.png "Figure 11: the bar chart of Total Restaurants in each cluster.")
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figurepie3.png "Figure 11: the bar chart of Median weekly personal income(A$) in each cluster in each cluster.")
+![alt text](https://github.com/neda-ale/Coursera_Capstone/blob/main/figurepie1.png "Figure 11: the bar chart of Percentage of the ACT population in each cluster.")
 
-**Figure 11:** The bar chart of Total Restaurants in each cluster 
+
+
+
+
+**Figure 11:** The pie chart of important criterias in each cluster 
