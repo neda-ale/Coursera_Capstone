@@ -138,4 +138,4 @@ In future studies, the theme of restaurant or other details can be carried out f
 
 ## Conclusion
 
-Opening a restaurant is fun and at the same time complex and challenging. If enough researches wouldn't done properly, it can lead to a large monetary loss. Therefore, substantial amount of research about the area would greatly increase the chance of the restaurant to be succeed. In this project, I try to demonstrate the necessary information for an investor to determine what area the restaurant should open. 
+Opening a restaurant is fun and at the same time complex and challenging. If enough researches wouldn't done properly, it can lead to a large monetary loss. Therefore, substantial amount of research about the area would greatly increase the chance of the restaurant to be succeed. In this project, I try to demonstrate the necessary information for an investor to determine what area the restaurant should open. The result came to cluster 1 which will be part of Belconnen and Tuggeranong.
