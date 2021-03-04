@@ -129,7 +129,11 @@ We can use different way of classification. I used the Kmeans algorithm for this
 
 When I tested the Elbow method, I set the optimum k value to 6. 
 
-I ended the study by visualizing the data and clustering information on the Canberra map. Also I visualize pie charts that show the important criteria to consider for opening a restaurant in each cluster. In future studies, the theme of restaurant or other details can be carried out for more study.
+I ended the study by visualizing the data and clustering information on the Canberra map. Also I visualize pie charts that show the important criteria to consider for opening a restaurant in each cluster. 
+
+As we can see in the above pie charts, clusters 0 and 1 have highest income and population while the highest number of restaurants are in cluster 4 and 2 while 2 has low population and 4 has low income. so our decision will be either cluster or 1. As cluster 0 has more restaurants compared with cluster 1, cluster 1 is a good choice to open a restaurant. 
+
+In future studies, the theme of restaurant or other details can be carried out for more study.
 
 
 ## Conclusion
